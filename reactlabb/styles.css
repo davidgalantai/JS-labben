@@ -1,0 +1,81 @@
+.avatar {
+  width: 180px;
+  height: 180px;
+  margin-right: 2rem;
+}
+
+.iconContainer {
+  justify-self: end;
+  min-width: 35px;
+}
+
+.EmployeeDiv,
+.EmployeeFormDiv {
+  display: flex;
+  box-sizing: border-box;
+  min-width: 500px;
+  width: 50%;
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #dedede;
+}
+
+.EmployeeFormDiv {
+  display: block;
+  min-width: 230px;
+  width: 230px;
+  height: 450px;
+  left: 50%;
+  top: 20%;
+  position: fixed;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.EmployeeFormDiv input {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.EmployeeFormDiv form {
+  margin-top: 1rem;
+}
+
+.button,
+.EmployeeFormDiv .button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.EmployeeFormDiv .button {
+  margin: 1rem 0 0;
+}
+
+.employeesList {
+  list-style: none;
+  width: 100%;
+}
+
+.icon {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.exit {
+  float: right;
+}
+
+.blur div:not(.EmployeeFormDiv),
+.blur button {
+  filter: blur(3px);
+}
